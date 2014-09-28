@@ -33,6 +33,66 @@
      {:es "me llamo" :nl "ik heet"}
      {:es "¿y tú?" :nl "en jij?"}
      {:es "¿y usted?" :nl "en u?"}
+     {:es "saludos y despedidas" :nl "begroeten en afscheid nemen"}
+     {:es "el saludo" :nl "de begroeting"}
+     {:es "la despedida" :nl "het afscheid"}
+     {:es "otra vez" :nl "nog een keer"}
+     {:es "adiós" :nl "tot ziens"}
+     {:es "buenos días" :nl "goedemorgen"}
+     {:es "el día" :nl "de dag"}
+     {:es "buenas tardes" :nl "goedemiddag"}
+     {:es "la tarde" :nl "de namiddag"}
+     {:es "buenas noches" :nl "goedenavond"}
+     {:es "la noche" :nl "de nacht"}
+     {:es "hasta pronto" :nl "tot snel"}
+     {:es "hasta luego" :nl "tot ziens"}
+     {:es "hasta mañana" :nl "tot morgen"}
+     {:es "o" :nl "of"}
+     {:es "¿Cómo se pronuncia?" :nl "Hoe spreek je het uit?"}
+     {:es "pronunciar" :nl "uitspreken"}
+     {:es "estos nombres" :nl "deze namen"}
+     {:es "leer" :nl "lezen"}
+     {:es "luego" :nl "dan, daarna"}
+     {:es "completar" :nl "aanvullen"}
+     {:es "la playa" :nl "het strand"}
+     {:es "la información" :nl "de informatie"}
+     {:es "la organización" :nl "de organisatie"}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
     ]
    7
     [
@@ -589,9 +649,6 @@
      {:es "la cocina" :nl "de keuken"}
      {:es "va a visitar" :nl "u gaat bezoeken"}
      {:es "el preparativo" :nl "de voorbereiding"}
-    ]
-   10
-    [
     ]
   }
 )
