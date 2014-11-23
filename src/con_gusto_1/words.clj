@@ -1,7 +1,332 @@
 (ns con-gusto-1.words)
 
 (def chapter
-  {1
+  {1  ;; WW
+    [
+     {:es "abollar / desabollar" :nl "(in)deuken / uitdeuken"}
+     {:es "abonarse / desabonarse" :nl "abonneren / (zijn abonnement) opzeggen"}
+     {:es "abrigar(se) / desabrigar(se)" :nl "(zich) warm aankleden / zijn jas/kleren uitdoen"}
+     {:es "abrochar(se) / desabrochar(se)" :nl "dichtknopen / losknopen"}
+     {:es "acatar / desacatar" :nl "respecteren / oneerbiedig behandelen; niet gehoorzamen (van wet)"}
+     {:es "acertar / desacertar" :nl "oplossen, raden / ernaast zitten"}
+     {:es "aconsejar / desaconsejar" :nl "aanraden / afraden"}
+     {:es "acoplar / desacoplar" :nl "koppelen / loskoppelen, ontkoppelen"}
+     {:es "acostumbrar(se) / desacostumbrar(se)" :nl "wennen / ontwennen"}
+     {:es "acreditar / desacreditar" :nl "een goede naam bezorgen / in diskrediet brengen; een slechte naam bezorgen"}
+     {:es "activar / desactivar" :nl "activeren; op gang brengen / onschadelijk maken (van explosieven)"}
+     {:es "afilar / desafilar" :nl "slijpen; aanscherpen / bot maken"}
+     {:es "afilarse / desafilarse" :nl "scherper worden / bot worden"}
+     {:es "agradar / desagradar" :nl "bevallen / onaangenaam zijn; niet bevallen"}
+     {:es "agraviar / desagraviar" :nl "beledigen / goed maken (van belediging)"}
+     {:es "aguar / desaguar" :nl "met water verdunnen / droogmaken, ontwateren"}
+     {:es "alentar / desalentar" :nl "aanmoedigen / ontmoedigen"}
+     {:es "alogar / desalogar" :nl "onderdak geven; huisvesten / verlaten; uitzetten"}
+     {:es "alquilar / desalquilar" :nl "verhuren; huren / verlaten (van gehuurde ruimte)"}
+     {:es "amarrar / desamarrar" :nl "vastbinden; aanmeren / losgooien (van trossen); lichten (van anker)"}
+     {:es "amparar / desamparar" :nl "beschermen; bijstaan / in de steek laten; onbeschermd achterlaten"}
+     {:es "amueblar / desamueblar" :nl "meubileren; inrichten / de meubilering weghalen uit; ontruimen"}
+     {:es "andar / desander" :nl "lopen; gaan / dezelfde weg terug afleggen"}
+     {:es "anidar / desanidar" :nl "nestelen / uitvliegen"}
+     {:es "animar / desanimar" :nl "aanmoedigen / ontmoedigen"}
+     {:es "anudar / desanudar" :nl "(vast)knopen; aanknopen (van vriendschap) / losmaken; uithalen (van knoop)"}
+     {:es "aparecer / desaparecer" :nl "tevoorschijn komen / verdwijnen; onzichtbaar worden"}
+     {:es "apoderar / deapoderar" :nl "machtigen / de macht/bevoegdheid afnemen van"}
+     {:es "aprender / desaprender" :nl "leren; uit het hoofd leren / afleren; vergeten"}
+     {:es "aprobar / desaprobar" :nl "goedkeuren / afkeuren"}
+     {:es "arbolar / desarbolar" :nl "van mast voorzien / van mast ontdoen"}
+     {:es "armar / desarmar" :nl "bewapenen / ontwapenen"}
+     {:es "arreglar / desarreglar" :nl "regelen; in orde maken / ontregelen; overhoop gooien"}
+     {:es "arrollar / desarrollar" :nl "(op)rollen / uitrollen"}
+     {:es "arrugar / desarrugar" :nl "kreukelen / gladstrijken"}
+     {:es "asir / desasir" :nl "beetpakken; grijpen / loslaten"}
+     {:es "asistir / desasistir" :nl "helpen; ondersteunen / in de steek laten"}
+     {:es "atender / desanteder" :nl "verzorgen / veronachtzamen; verwaarlozen"}
+     {:es "atornillar / desatornillar" :nl "vastschroeven / losschroeven"}
+     {:es "autorizar / desautorizar" :nl "de bevoegdheid geven; toestemming verlenen / geen toestemming geven voor"}
+     {:es "ayunar / desayunar" :nl "vasten / ontbijten"}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "salar / desalar" :nl "zouten; zout doen in / ontzouten; ontzilten"}
+     {:es "" :nl ""}
+    ]
+   2  ;; BNW
+    [
+     {:es "abrigado / desabrigado" :nl "warm aangekleed / zonder jas; te dun gekleed"}
+     {:es "afortunado / desafortunado" :nl "gelukkig; fortuinlijk / ongelukkig; zonder geluk; onfortuinlijk"}
+     {:es "agradable / desagradable" :nl "aangenaam / onaangenaam"}
+     {:es "agradecido / desagradecido" :nl "dankbaar / ondankbaar"}
+     {:es "autorizado / desautorizado" :nl "bevoegd / zonder toestemming; onbevoegd"}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   3  ;; ZNW
+    [
+     {:es "la aparición / la desaparición" :nl "de verschijning / de verdwijning"}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   4  ;; WW
+    [
+     {:es "abrir / reabrir" :nl "openen / heropenen"}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   5  ;; BNW
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   11 ;; Heel werkwoord
+    [
+     {:es "abrir" :nl "openen"}
+     {:es "acortar" :nl "verkorten"}
+     {:es "beber" :nl "drinken"}
+     {:es "caer" :nl "vallen"}
+     {:es "cerrar" :nl "sluiten; dichtdoen"}
+     {:es "comenzar" :nl "beginnen"}
+     {:es "comer" :nl "eten"}
+     {:es "conducir" :nl "rijden; besturen"}
+     {:es "conocer" :nl "(leren) kennen"}
+     {:es "creer" :nl "geloven"}
+     {:es "cubrir" :nl "(af)dekken; bedekken"}
+     {:es "dar" :nl "geven"}
+     {:es "decir" :nl "zeggen"}
+     {:es "descansar" :nl "uitrusten"}
+     {:es "descubrir" :nl "ontdekken"}
+     {:es "dormir" :nl "slapen"}
+     {:es "entender" :nl "verstaan; begrijpen"}
+     {:es "escribir" :nl "schrijven"}
+     {:es "esperar" :nl "(ver)wachten; hopen"}
+     {:es "estar" :nl "zijn; zich bevinden"}
+     {:es "hacer" :nl "doen; maken"}
+     {:es "incluir" :nl "insluiten; bijvoegen; inhouden"}
+     {:es "ir" :nl "gaan"}
+     {:es "jugar" :nl "spelen"}
+     {:es "leer" :nl "lezen"}
+     {:es "levantar" :nl "oprichten"}
+     {:es "llegar" :nl "aankomen"}
+     {:es "morir" :nl "doodgaan; sterven"}
+     {:es "oír" :nl "horen; luisteren"}
+     {:es "pedir" :nl "verzoeken; bestellen"}
+     {:es "perder" :nl "verliezen"}
+     {:es "poder" :nl "kunnen; mogen"}
+     {:es "poner" :nl "leggen; zetten"}
+     {:es "preferir" :nl "liever hebben; leuker vinden"}
+     {:es "querer" :nl "willen"}
+     {:es "resolver" :nl "beslissen; oplossen"}
+     {:es "romper" :nl "breken; kapotmaken"}
+     {:es "saber" :nl "weten; kunnen"}
+     {:es "salir" :nl "uitgaan; weggaan; vertrekken"}
+     {:es "sentir" :nl "voelen; betreuren"}
+     {:es "ser" :nl "zijn"}
+     {:es "subir" :nl "omhooggaan"}
+     {:es "tener" :nl "hebben; bezitten"}
+     {:es "tomar" :nl "nemen"}
+     {:es "traer" :nl "brengen; halen"}
+     {:es "venir" :nl "komen"}
+     {:es "ver" :nl "zien"}
+     {:es "viajar" :nl "reizen"}
+     {:es "vivir" :nl "leven; wonen"}
+     {:es "volver" :nl "terugkeren"}
+    ]
+   12 ;; Voltooid deelwoord
+    [
+     {:es "abierto" :nl "geopend"}
+     {:es "acortado" :nl "verkort"}
+     {:es "bebido" :nl "gedronken"}
+     {:es "caído" :nl "gevallen"}
+     {:es "cerrado" :nl "gesloten; dichtgedaan"}
+     {:es "comenzado" :nl "begonnen"}
+     {:es "comido" :nl "gegeten"}
+     {:es "conducido" :nl "gereden; bestuurd"}
+     {:es "conocido" :nl "gekend"}
+     {:es "creído" :nl "geloofd"}
+     {:es "cubierto" :nl "(af)gedekt; bedekt"}
+     {:es "dado" :nl "gegeven"}
+     {:es "dicho" :nl "gezegd"}
+     {:es "descansado" :nl "uitgerust"}
+     {:es "descubierto" :nl "ontdekt"}
+     {:es "dormido" :nl "geslapen"}
+     {:es "entendido" :nl "verstaan; begrepen"}
+     {:es "escrito" :nl "geschreven"}
+     {:es "esperado" :nl "(ver)wacht; gewacht; gehoopt"}
+     {:es "estado" :nl "geweest; zich bevonden"}
+     {:es "hecho" :nl "gedaan; gemaakt"}
+     {:es "ido" :nl "gegaan"}
+     {:es "incluido" :nl "ingesloten; bijgevoegd; ingehouden"}
+     {:es "jugado" :nl "gespeeld"}
+     {:es "leído" :nl "gelezen"}
+     {:es "levantado" :nl "opgericht"}
+     {:es "llegado" :nl "aangekomen"}
+     {:es "muerto" :nl "doodgegaan; gestorven"}
+     {:es "oído" :nl "gehoord; geluisterd"}
+     {:es "pedido" :nl "verzocht; besteld"}
+     {:es "perdido" :nl "verloren"}
+     {:es "podido" :nl "gekund; gemogen"}
+     {:es "puesto" :nl "gelegd; gezet"}
+     {:es "preferido" :nl "liever gehad; leuker gevonden"}
+     {:es "querido" :nl "gewild"}
+     {:es "resuelto" :nl "beslist; opgelost"}
+     {:es "roto" :nl "gebroken; kapot gemaakt"}
+     {:es "sabido" :nl "geweten; gekund"}
+     {:es "salido" :nl "uitgegaan; weggegaan; vertrokken"}
+     {:es "sentido" :nl "gevoeld; betreurd"}
+     {:es "sido" :nl "geweest"}
+     {:es "subido" :nl "omhooggegaan"}
+     {:es "tenido" :nl "gehad; bezeten"}
+     {:es "tomado" :nl "genomen"}
+     {:es "traído" :nl "gebracht; gehaald"}
+     {:es "venido" :nl "gekomen"}
+     {:es "visto" :nl "gezien"}
+     {:es "viajado" :nl "gereisd"}
+     {:es "vivido" :nl "geleefd; gewoond"}
+     {:es "vuelto" :nl "teruggekeerd"}
+    ]
+   31 ;; Indefinido (1e pers. enkelvoud)
+    [
+     {:es "abrí ayer" :nl "ik opende gisteren"}
+     {:es "acorté ayer" :nl "ik verkorte gisteren"}
+     {:es "bebí ayer" :nl "ik dronk gisteren"}
+     {:es "caí ayer" :nl "ik viel gisteren"}
+
+
+     {:es "cerrar" :nl "sluiten; dichtdoen"}
+     {:es "comenzar" :nl "beginnen"}
+     {:es "comer" :nl "eten"}
+     {:es "conducir" :nl "rijden; besturen"}
+     {:es "conocer" :nl "(leren) kennen"}
+     {:es "creer" :nl "geloven"}
+     {:es "cubrir" :nl "(af)dekken; bedekken"}
+     {:es "dar" :nl "geven"}
+     {:es "decir" :nl "zeggen"}
+     {:es "descansar" :nl "uitrusten"}
+     {:es "descubrir" :nl "ontdekken"}
+     {:es "dormir" :nl "slapen"}
+     {:es "entender" :nl "verstaan; begrijpen"}
+     {:es "escribir" :nl "schrijven"}
+     {:es "esperar" :nl "(ver)wachten; hopen"}
+     {:es "estar" :nl "zijn; zich bevinden"}
+     {:es "hacer" :nl "doen; maken"}
+     {:es "incluir" :nl "insluiten; bijvoegen; inhouden"}
+     {:es "ir" :nl "gaan"}
+     {:es "jugar" :nl "spelen"}
+     {:es "leer" :nl "lezen"}
+     {:es "levantar" :nl "oprichten"}
+     {:es "llegar" :nl "aankomen"}
+     {:es "morir" :nl "doodgaan; sterven"}
+     {:es "oír" :nl "horen; luisteren"}
+     {:es "pedir" :nl "verzoeken; bestellen"}
+     {:es "perder" :nl "verliezen"}
+     {:es "poder" :nl "kunnen; mogen"}
+     {:es "poner" :nl "leggen; zetten"}
+     {:es "preferir" :nl "liever hebben; leuker vinden"}
+     {:es "querer" :nl "willen"}
+     {:es "resolver" :nl "beslissen; oplossen"}
+     {:es "romper" :nl "breken; kapotmaken"}
+     {:es "saber" :nl "weten; kunnen"}
+     {:es "salir" :nl "uitgaan; weggaan; vertrekken"}
+     {:es "sentir" :nl "voelen; betreuren"}
+     {:es "ser" :nl "zijn"}
+     {:es "subir" :nl "omhooggaan"}
+     {:es "tener" :nl "hebben; bezitten"}
+     {:es "tomar" :nl "nemen"}
+     {:es "traer" :nl "brengen; halen"}
+     {:es "venir" :nl "komen"}
+     {:es "ver" :nl "zien"}
+     {:es "viajar" :nl "reizen"}
+     {:es "vivir" :nl "leven; wonen"}
+     {:es "volver" :nl "terugkeren"}
+    ]
+   99
+    [
+     {:es "cero" :nl "0"}
+     {:es "uno" :nl "1"}
+     {:es "dos" :nl "2"}
+     {:es "tres" :nl "3"}
+     {:es "cuatro" :nl "4"}
+     {:es "cinco" :nl "5"}
+     {:es "seis" :nl "6"}
+     {:es "siete" :nl "7"}
+     {:es "ocho" :nl "8"}
+     {:es "nueve" :nl "9"}
+     {:es "diez" :nl "10"}
+     {:es "once" :nl "11"}
+     {:es "doce" :nl "12"}
+     {:es "trece" :nl "13"}
+     {:es "catorce" :nl "14"}
+     {:es "quince" :nl "15"}
+     {:es "dieciséis" :nl "16"}
+     {:es "diecisiete" :nl "17"}
+     {:es "dieciocho" :nl "18"}
+     {:es "diecinueve" :nl "19"}
+     {:es "veinte" :nl "20"}
+     {:es "veintiuno" :nl "21"}
+     {:es "veintidós" :nl "22"}
+     {:es "veintitrés" :nl "23"}
+     {:es "treinta" :nl "30"}
+     {:es "treinta y uno" :nl "31"}
+     {:es "treinta y dos" :nl "32"}
+     {:es "treinta y tres" :nl "33"}
+     {:es "cuarenta" :nl "40"}
+     {:es "cincuenta" :nl "50"}
+     {:es "sesenta" :nl "60"}
+     {:es "setenta" :nl "70"}
+     {:es "ochenta" :nl "80"}
+     {:es "noventa" :nl "90"}
+     {:es "cien" :nl "100"}
+     {:es "ciento uno" :nl "101"}
+     {:es "ciento dos" :nl "102"}
+     {:es "ciento tres" :nl "103"}
+     {:es "doscientos" :nl "200"}
+     {:es "doscientos uno" :nl "201"}
+     {:es "doscientos dos" :nl "202"}
+     {:es "doscientos tres" :nl "203"}
+     {:es "trescientos" :nl "300"}
+     {:es "cuatrocientos" :nl "400"}
+     {:es "quinientos" :nl "500"}
+     {:es "seiscientos" :nl "600"}
+     {:es "setecientos" :nl "700"}
+     {:es "ochocientos" :nl "800"}
+     {:es "novecientos" :nl "900"}
+     {:es "mil" :nl "1000"}
+     {:es "mil uno" :nl "1001"}
+     {:es "mil dos" :nl "1002"}
+     {:es "mil tres" :nl "1003"}
+     {:es "mil cien" :nl "1100"}
+     {:es "dos mil" :nl "2000"}
+     {:es "cien mil" :nl "100.000"}
+     {:es "doscientos mil" :nl "200.000"}
+     {:es "un millón" :nl "1.000.000"}
+    ]
+   101
     [
      {:es "Viaje al español" :nl "Reis naar het Spaans"}
      {:es "el viaje" :nl "de reis"}
@@ -57,34 +382,141 @@
      {:es "la playa" :nl "het strand"}
      {:es "la información" :nl "de informatie"}
      {:es "la organización" :nl "de organisatie"}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
-     {:es "" :nl ""}
+     {:es "la universidad" :nl "de universiteit"}
+     {:es "el teatro" :nl "het theater"}
+     {:es "el concierto" :nl "het concert"}
+     {:es "el hotel" :nl "het hotel"}
+     {:es "los nobres favoritos" :nl "de favoriete namen"}
+     {:es "el bebé" :nl "de baby"}
+     {:es "el texto" :nl "de tekst"}
+     {:es "los nombres favoritos de bebé" :nl "de favoriete babynamen"}
+     {:es "en España" :nl "in Spanje"}
+     {:es "para niños" :nl "voor jongens"}
+     {:es "para niñas" :nl "voor meisjes"}
+     {:es "las comunidades" :nl "de Spaanse autonome regio's"}
+     {:es "con" :nl "met"}
+     {:es "las lenguas oficiales" :nl "de officiële talen"}
+     {:es "diferentes" :nl "verschillend; anders"}
+     {:es "por ejemplo" :nl "bijvoorbeeld"}
+     {:es "se llaman" :nl "(ze) heten"}
+     {:es "muchos" :nl "veel"}
+     {:es "además de" :nl "afgezien van; behalve"}
+     {:es "las ciudades españolas" :nl "de Spaanse steden"}
+     {:es "el norte de África" :nl "het noorden van Afrika"}
+     {:es "compañeros/-as" :nl "medecursisten"}
+     {:es "palabras con historia" :nl "woorden met geschiedenis"}
+     {:es "la palabra" :nl "het woord"}
+     {:es "el ochenta por ciento" :nl "tachtig procent"}
+     {:es "del español" :nl "van het Spaans"}
+     {:es "la familia" :nl "de familie; het gezin"}
+     {:es "el trabajo" :nl "het werk"}
+     {:es "el metal" :nl "het metaal"}
+     {:es "el resto" :nl "de rest"}
+     {:es "de otras lenguas" :nl "uit andere talen"}
+     {:es "muchas palabras" :nl "veel woorden"}
+     {:es "como" :nl "zoals"}
+     {:es "el aceite" :nl "de olie"}
+     {:es "el arroz" :nl "de rijst"}
+     {:es "la taza" :nl "het kopje"}
+     {:es "el alcohol" :nl "de alcohol"}
+     {:es "la naranja" :nl "de sinaasappel"}
+     {:es "del griego" :nl "uit het Grieks"}
+     {:es "la biblioteca" :nl "de bibliotheek"}
+     {:es "el carácter" :nl "het karakter"}
+     {:es "otras palabras vienen de" :nl "andere woorden komen uit"}
+     {:es "América" :nl "Amerika"}
+     {:es "el tabaco" :nl "de tabak"}
+     {:es "los tomates" :nl "de tomaten"}
+     {:es "también" :nl "ook"}
+     {:es "americanos" :nl "Amerikaans; uit Amerika"}
+     {:es "hoy" :nl "vandaag"}
+     {:es "el inglés" :nl "het Engels"}
+     {:es "el origen" :nl "de oorsprong; de herkomst"}
+     {:es "muchas palabras nuevas" :nl "veel nieuwe woorden"}
+     {:es "el cámping" :nl "de camping"}
+     {:es "el fútbol" :nl "het voetbal"}
+     {:es "todas las lenguas" :nl "alle talen"}
+     {:es "muchas influencias" :nl "veel invloeden"}
+     {:es "significar" :nl "betekenen"}
+     {:es "sí" :nl "ja"}
+     {:es "no" :nl "nee"}
+     {:es "No sé." :nl "Ik weet het niet."}
+     {:es "masculino/-a" :nl "mannelijk"}
+     {:es "feminino/-a" :nl "vrouwelijk"}
+     {:es "¿Para qué estudias español?" :nl "Waarom leer je Spaans?"}
+     {:es "marque" :nl "kruis aan"}
+     {:es "el motivo" :nl "de reden"}
+     {:es "estudio español" :nl "ik leer Spaans"}
+     {:es "para viajar (a)" :nl "om te reizen (naar)"}
+     {:es "Latinoamérica" :nl "Latijns-Amerika"}
+     {:es "trabajar" :nl "werken"}
+     {:es "en un hotel" :nl "in een hotel"}
+     {:es "estudiar" :nl "studeren"}
+     {:es "comprar" :nl "kopen"}
+     {:es "escuchar" :nl "(be)luisteren"}
+     {:es "la música cubana" :nl "de Cubaanse muziek"}
+     {:es "México" :nl "Mexico"}
+     {:es "pasar las vacaciones" :nl "de vakantie doorbrengen"}
+     {:es "hablar" :nl "praten"}
+     {:es "mi pareja" :nl "mijn partner"}
+     {:es "yo" :nl "ik"}
+     {:es "tú" :nl "jij"}
+     {:es "él" :nl "hij"}
+     {:es "ella" :nl "zij (ev)"}
+     {:es "usted" :nl "u (ev)"}
+     {:es "nosotros/-as" :nl "wij"}
+     {:es "vosotros/-as" :nl "jullie"}
+     {:es "ellos/-as" :nl "zij (mv)"}
+     {:es "ustedes" :nl "u (mv)"}
+     {:es "la música clásica" :nl "de klassieke muziek"}
+     {:es "un apartamento" :nl "een appartement"}
+     {:es "si" :nl "of"}
+     {:es "se hablan de 'tú'" :nl "ze zeggen 'jij' tegen elkaar"}
+     {:es "la señora" :nl "de mevrouw; de dame"}
+     {:es "el señor" :nl "de meneer; de heer"}
+     {:es "Argentina" :nl "Argentinië"}
+     {:es "el amigo" :nl "de vriend"}
+     {:es "la amiga" :nl "de vriendin"}
+     {:es "los motivos del grupo" :nl "de redenen van de groep"}
+     {:es "presente" :nl "presenteer"}
+     {:es "ahora" :nl "nu"}
+     {:es "el dominó" :nl "het domino(spel)"}
+     {:es "la preparación" :nl "de voorbereiding"}
+     {:es "el artículo" :nl "het lidwoord"}
+     {:es "el país" :nl "het land"}
+     {:es "de origen" :nl "van oorsprong"}
+     {:es "el juego" :nl "het spel"}
+     {:es "llevarse" :nl "meenemen"}
+     {:es "la etapa" :nl "de etappe"}
+     {:es "la letra" :nl "de letter"}
+     {:es "la pronunciación" :nl "de uitspraak"}
+     {:es "difícil" :nl "moeilijk"}
+     {:es "la expresión" :nl "de uitdrukking"}
+     {:es "útil" :nl "nuttig"}
+     {:es "los temas de gramática" :nl "de grammaticale onderwerpen"}
+     {:es "los aspectos culturales" :nl "de culturele aspecten"}
+     {:es "cultural" :nl "cultureel"}
+     {:es "de Norte a Sur" :nl "van noord naar zuid"}
+     {:es "desde" :nl "van(uit)"}
+     {:es "hasta" :nl "tot"}
+     {:es "pasar por" :nl "gaan door; lopen door"}
+     {:es "la cultura" :nl "de cultuur"}
+     {:es "muy diferente" :nl "heel verschillend"}
+     {:es "con sus lenguas" :nl "met hun talen"}
+     {:es "el paisaje" :nl "het landschap"}
+     {:es "impresionante" :nl "indrukwekkend"}
+     {:es "cada" :nl "elk; ieder"}
+     {:es "presentar" :nl "presenteren; voorstellen"}
+     {:es "en el mapa" :nl "op de landkaart"}
+     {:es "los países que se mencionan" :nl "de landen die genoemd worden"}
+     {:es "República Dominicana" :nl "Dominicaanse Republiek"}
+     {:es "Panamá" :nl "Panama"}
+     {:es "el Perú" :nl "Peru"}
+     {:es "relacione" :nl "verbind"}
+     {:es "la foto" :nl "de foto"}
+    ]
+   102
+    [
      {:es "" :nl ""}
      {:es "" :nl ""}
      {:es "" :nl ""}
@@ -94,7 +526,51 @@
      {:es "" :nl ""}
      {:es "" :nl ""}
     ]
-   7
+   103
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   104
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   105
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   106
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   107
     [
      {:es "el placer" :nl "het plezier"}
      {:es "mucho más que viajar" :nl "veel meer dan reizen"}
@@ -383,7 +859,7 @@
      {:es "la fama" :nl "de roem"}
      {:es "llegar tarde" :nl "te laat komen"}
     ]
-   8
+   108
     [
      {:es "el horario" :nl "de dagindeling"}
      {:es "tomas copas" :nl "iets gaan drinken"}
@@ -430,7 +906,7 @@
      {:es "cómo llegar a..." :nl "hoe in/bij ... te komen"}
      {:es "por fin" :nl "eindelijk"}
     ]
-   9
+   109
     [
      {:es "caminando" :nl "wandelend"}
      {:es "lo más importante" :nl "het belangrijkste"}
@@ -649,6 +1125,1020 @@
      {:es "la cocina" :nl "de keuken"}
      {:es "va a visitar" :nl "u gaat bezoeken"}
      {:es "el preparativo" :nl "de voorbereiding"}
+    ]
+   110
+    [
+     {:es "el plan" :nl "het plan"}
+     {:es "el puerto" :nl "de haven"}
+     {:es "principal" :nl "belangrijkste, hoofd"}
+     {:es "cuidar" :nl "zorgen voor"}
+     {:es "la planta" :nl "de plant"}
+     {:es "dibujar" :nl "tekenen"}
+     {:es "odiar" :nl "haten, een hekel hebben aan"}
+     {:es "saber" :nl "kunnen, kennen"}
+     {:es "jugar al golf" :nl "golf spelen"}
+     {:es "quedarse en la cama" :nl "in bed blijven"}
+     {:es "todos juntos" :nl "met zijn allen"}
+     {:es "sin prisa" :nl "zonder haast"}
+     {:es "a dormir" :nl "gaan slapen, naar bed"}
+     {:es "elija" :nl "kies (ww)"}
+     {:es "ir a correr" :nl "gaan hardlopen"}
+     {:es "tocar el piano" :nl "pianospelen"}
+     {:es "pescar" :nl "vissen (ww)"}
+     {:es "esquiar" :nl "skiën"}
+     {:es "salir" :nl "uitgaan"}
+     {:es "bailar" :nl "dansen"}
+     {:es "navegar en internet" :nl "surfen op internet"}
+     {:es "jugar al ajedrez" :nl "schaken"}
+     {:es "traducir" :nl "vertalen"}
+     {:es "conducir una mota" :nl "motorrijden"}
+     {:es "la luz" :nl "het licht"}
+     {:es "a la vez" :nl "tegelijkertijd"}
+     {:es "la tarjeta de crédito" :nl "de creditcard"}
+     {:es "la verdad" :nl "de waarheid"}
+     {:es "la mentira" :nl "de leugen"}
+     {:es "quedar" :nl "afspreken"}
+     {:es "ir a hacer" :nl "gaan doen"}
+     {:es "japonés/-esa" :nl "Japans"}
+     {:es "proponer" :nl "voorstellen"}
+     {:es "tener ganas de" :nl "zin hebben om"}
+     {:es "estoy cansado/-a" :nl "ik ben moe"}
+     {:es "¡Qué bien!" :nl "Wat leuk!; Wat goed!"}
+     {:es "¡Qué ilusión!" :nl "Ik verheug me er al op!; Wat leuk!"}
+     {:es "vale" :nl "oké; dat is goed"}
+     {:es "¿Vienes conmigo?" :nl "Heb je zin om mee te gaan?"}
+     {:es "conmigo" :nl "met mij"}
+     {:es "Con mucho gusto." :nl "Heel graag."}
+     {:es "Qué pena." :nl "Wat jammer."}
+     {:es "en casa" :nl "thuis"}
+     {:es "jugar a las cartas" :nl "kaarten (ww)"}
+     {:es "dar un paseo" :nl "een wandeling maken"}
+     {:es "de acuerdo" :nl "akkoord; afgesproken"}
+     {:es "propio/-a" :nl "eigen"}
+     {:es "contigo" :nl "met jou"}
+     {:es "decidan" :nl "beslis; besluit"}
+     {:es "el curso de cocina" :nl "de kookcursus"}
+     {:es "cuenten" :nl "vertel"}
+     {:es "salir a comer" :nl "uit eten gaan"}
+     {:es "la ocasión" :nl "de gelegenheid"}
+     {:es "igual que" :nl "net zoals"}
+     {:es "tratarse de" :nl "gaan om"}
+     {:es "social" :nl "sociaal"}
+     {:es "charlar" :nl "kletsen"}
+     {:es "¿De verdad?" :nl "Echt waar?"}
+     {:es "la tortilla francesa" :nl "de omelet"}
+     {:es "francés/-esa" :nl "Frans"}
+     {:es "los estudios" :nl "de studie"}
+     {:es "la compañía" :nl "het gezelschap"}
+     {:es "Hablando de ..." :nl "Over ... gesproken"}
+     {:es "la vida social" :nl "het sociale leven"}
+     {:es "arriva" :nl "(hier)boven"}
+     {:es "italiano/-a" :nl "Italiaans"}
+     {:es "genial" :nl "geniaal"}
+     {:es "la nacionalidad" :nl "de nationaliteit"}
+     {:es "holandés/-esa" :nl "Nederlands"}
+     {:es "danés/-esa" :nl "Deens"}
+     {:es "finlandés/-esa" :nl "Fins"}
+     {:es "noruego/-a" :nl "Noors"}
+     {:es "sueco/-a" :nl "Zweeds"}
+     {:es "suizo/-a" :nl "Zwitsers"}
+     {:es "austríaco/-a" :nl "Oostenrijks"}
+     {:es "turco/-a" :nl "Turks"}
+     {:es "argentino/-a" :nl "Argentijns"}
+     {:es "chileno/-a" :nl "Chileens"}
+     {:es "el siglo XXI" :nl "de 21e eeuw"}
+     {:es "el reloj" :nl "het horloge; de klok"}
+     {:es "tener cosas en común" :nl "overeenkomsten hebben"}
+     {:es "lo que" :nl "dat(gene) wat"}
+     {:es "el primer plato" :nl "het voorgerecht"}
+     {:es "el segundo plato" :nl "het hoofdgerecht"}
+     {:es "el pollo asado" :nl "de gebraden kip"}
+     {:es "el postre" :nl "het nagerecht"}
+     {:es "el flan" :nl "<soort karamelpudding>"}
+     {:es "la fruta del tiempo" :nl "het seizoensfruit; het verse fruit"}
+     {:es "de primero" :nl "als voorgerecht"}
+     {:es "de segundo" :nl "als hoofdgerecht"}
+     {:es "de postre" :nl "als nagerecht"}
+     {:es "otra cerveza" :nl "nog een biertje"}
+     {:es "la sal" :nl "het zout"}
+     {:es "un poco (más) de pan" :nl "(nog) wat brood"}
+     {:es "el papel" :nl "het (vel) papier"}
+     {:es "según" :nl "volgens"}
+     {:es "salado/-a" :nl "zout; gezouten"}
+     {:es "demasiado/-a" :nl "te veel"}
+     {:es "el fin de semana" :nl "het weekend"}
+     {:es "durar" :nl "duren"}
+     {:es "definitivo/-a" :nl "definitief"}
+     {:es "el chileno" :nl "de Chileen"}
+     {:es "la chilena" :nl "de Chileense"}
+     {:es "Noruega" :nl "Noorwegen"}
+     {:es "seco/-a" :nl "droog"}
+     {:es "el extremo" :nl "het uiteinde"}
+     {:es "misterioso/-a" :nl "geheimzinnig; mysterieus"}
+     {:es "el punto de encuentro" :nl "het ontmoetingspunt"}
+     {:es "el encuentro" :nl "de ontmoeting"}
+     {:es "intenso/-a" :nl "intensief"}
+     {:es "hay que" :nl "je moet"}
+     {:es "el puerto comercial" :nl "de handelshaven"}
+     {:es "fresco/-a" :nl "vers"}
+     {:es "la invitación" :nl "de uitnodiging"}
+     {:es "saber más de" :nl "meer te weten komen over"}
+    ]
+   111
+    [
+     {:es "la noticia" :nl "het nieuws"}
+     {:es "el piso" :nl "het appartement"}
+     {:es "realmente" :nl "werkelijk"}
+     {:es "la cocina" :nl "de keuken"}
+     {:es "la ventana" :nl "het raam"}
+     {:es "el vecino" :nl "de buurman"}
+     {:es "la vecina" :nl "de buurvrouw"}
+     {:es "estar contento/-a (de)" :nl "tevreden zijn (over)"}
+     {:es "la dirección" :nl "het adres"}
+     {:es "la ventaja" :nl "het voordeel"}
+     {:es "el inconveniente" :nl "het bezwaar"}
+     {:es "el/la mismo/-a" :nl "dezelfde"}
+     {:es "con la ayuda de" :nl "met hulp van"}
+     {:es "la ayuda" :nl "de hulp"}
+     {:es "según su opinión" :nl "naar uw mening"}
+     {:es "la opinión" :nl "de mening"}
+     {:es "el parque" :nl "het park"}
+     {:es "viejo/-a" :nl "oud"}
+     {:es "la planta baja" :nl "de begane grond"}
+     {:es "oscuro/-a" :nl "donker"}
+     {:es "la nevera" :nl "de koelkast"}
+     {:es "el microondas" :nl "de magnetron"}
+     {:es "el espejo" :nl "de spiegel"}
+     {:es "el armario" :nl "de kast"}
+     {:es "la lámpara" :nl "de lamp"}
+     {:es "a partir de ..." :nl "vanaf ..."}
+     {:es "el precio total" :nl "de totale prijs"}
+     {:es "se alquila ..." :nl "... te huur"}
+     {:es "no fumador(es)" :nl "niet-roker(s)"}
+     {:es "alquilar" :nl "(ver)huren"}
+     {:es "el gato" :nl "de kat"}
+     {:es "despedirse" :nl "afscheid nemen"}
+     {:es "antes" :nl "als eerste"}
+     {:es "encima de" :nl "boven op"}
+     {:es "el camión" :nl "de vrachtwagen"}
+     {:es "debajo de" :nl "onder"}
+     {:es "amueblar" :nl "meubileren"}
+     {:es "explicar" :nl "uitleggen"}
+     {:es "¡Qué casa más bonita!" :nl "Wat een mooi huis!"}
+     {:es "¿Tú crees?" :nl "Denk je?"}
+     {:es "tantos/-as" :nl "zoveel"}
+     {:es "¿Te parece?" :nl "Vind je?"}
+     {:es "la verdad" :nl "eerlijk gezegd"}
+     {:es "No está mal." :nl "Het is niet slecht."}
+     {:es "la vivienda" :nl "de woning"}
+     {:es "expresar" :nl "uitdrukken"}
+     {:es "la cantidad" :nl "de hoeveelheid"}
+     {:es "Italia" :nl "Italië"}
+     {:es "Francia" :nl "Frankrijk"}
+     {:es "la mayoría" :nl "de meerderheid"}
+     {:es "perder" :nl "verliezen"}
+     {:es "el piso alquilado" :nl "de huurwoning"}
+     {:es "la mitad" :nl "de helft"}
+     {:es "hoy en día" :nl "vandaag de dag"}
+     {:es "los jóvenes" :nl "de jongeren"}
+     {:es "irse" :nl "weggaan"}
+     {:es "fijo/-a" :nl "vast"}
+     {:es "en el futuro" :nl "in de toekomst"}
+     {:es "tener ... en propiedad" :nl "bezitten"}
+     {:es "la conclusión" :nl "de conclusie"}
+     {:es "nadie" :nl "niemand"}
+     {:es "la expresión de cantidad" :nl "de aanduiding van hoeveelheid"}
+     {:es "positivo/-a" :nl "positief"}
+     {:es "tener casa propia" :nl "een eigen huis hebben"}
+     {:es "nacer" :nl "geboren worden"}
+     {:es "empezar (a)" :nl "beginnen (met)"}
+     {:es "consumir" :nl "consumeren"}
+     {:es "probablemente" :nl "waarschijnlijk"}
+     {:es "un día" :nl "op een dag"}
+     {:es "común" :nl "gemeenschappelijk"}
+     {:es "se fue" :nl "hij ging"}
+     {:es "realizar" :nl "volbrengen"}
+     {:es "actualmente" :nl "tegenwoordig"}
+     {:es "el pueblo" :nl "het volk"}
+     {:es "ayer" :nl "gisteren"}
+     {:es "la semana pasada" :nl "vorige week"}
+     {:es "el presente" :nl "de tegenwoordige tijd"}
+     {:es "en los años noventa" :nl "in de jaren negentig"}
+     {:es "dejar mi país" :nl "mijn land verlaten"}
+     {:es "el cuerpo" :nl "het lichaam"}
+     {:es "pintar" :nl "schilderen"}
+     {:es "terminar" :nl "beëindigen"}
+     {:es "cambiar de trabajo" :nl "van werk veranderen"}
+     {:es "casarse" :nl "trouwen"}
+     {:es "pasar un examen" :nl "een examen halen"}
+     {:es "escribir a mano" :nl "met de hand schrijven"}
+     {:es "tomarse un día libre" :nl "een dag vrij nemen"}
+     {:es "por última vez" :nl "voor het laatst"}
+     {:es "hace un mes" :nl "een maand geleden"}
+     {:es "la moneda" :nl "het betaalmiddel"}
+     {:es "al principio" :nl "in het begin"}
+     {:es "amargo/-a" :nl "bitter"}
+     {:es "mezclar" :nl "mengen"}
+     {:es "el azúcar" :nl "de suiker"}
+     {:es "poco a poco" :nl "langzamerhand"}
+     {:es "pasar a" :nl "terechtkomen in"}
+     {:es "el alemán" :nl "de Duitser"}
+     {:es "la alemana" :nl "de Duitse"}
+     {:es "celebrar" :nl "vieren; houden (bijeenkomst)"}
+     {:es "dar las gracias" :nl "bedanken"}
+     {:es "Suiza" :nl "Zwitserland"}
+     {:es "industrial" :nl "industrieel"}
+     {:es "terminar" :nl "eindigen"}
+     {:es "el/la maestro/-a" :nl "de meester"}
+     {:es "la combinación" :nl "de combinatie"}
+     {:es "entrar en" :nl "binnengaan"}
+     {:es "Asia" :nl "Azië"}
+     {:es "hablen (de)" :nl "spreek (over)"}
+     {:es "en lugar de" :nl "in plaats van"}
+     {:es "recoger" :nl "inzamelen"}
+     {:es "repartir" :nl "uitdelen, verdelen"}
+     {:es "el argentino" :nl "de Argentijn"}
+     {:es "la argentina" :nl "de Argentijnse"}
+     {:es "enorme" :nl "enorm"}
+     {:es "ser de ..." :nl "(eigendom) zijn van ..."}
+     {:es "caracterizar" :nl "kenschetsen, typeren"}
+     {:es "junto a" :nl "aan, naast"}
+     {:es "ancho/-a" :nl "breed"}
+     {:es "triste" :nl "droevig, treurig"}
+     {:es "el aficionado" :nl "de liefhebber"}
+     {:es "la aficionada" :nl "de liefhebster"}
+     {:es "Finlandia" :nl "Finland"}
+     {:es "llegar de visita" :nl "op bezoek komen"}
+     {:es "pasar" :nl "doorgeven"}
+     {:es "el espectáculo" :nl "het shouwspel; het spektakel"}
+     {:es "la costumbre" :nl "de gewoonte"}
+     {:es "la lavadora" :nl "de wasmachine"}
+     {:es "la lavaplatos" :nl "de afwasmachine"}
+    ]
+   112
+    [
+     {:es "el club de deporte" :nl "de sportvereniging"}
+     {:es "antes" :nl "eerder, van tevoren"}
+     {:es "un par de días" :nl "een paar dagen"}
+     {:es "llegar a la hora en punto" :nl "stipt op tijd aankomen"}
+     {:es "tener poca hambre" :nl "weinig honger hebben"}
+     {:es "el hambre (v)" :nl "de honger"}
+     {:es "el pastel" :nl "de taart; de cake"}
+     {:es "tomar algo" :nl "iets eten"}
+     {:es "ahí" :nl "daar"}
+     {:es "la entrada" :nl "de ingang"}
+     {:es "contestar" :nl "opnemen (telefoon); (be)antwoorden"}
+     {:es "la llamada telefónica" :nl "het telefoongesprek"}
+     {:es "dicen que..." :nl "ze zeggen dat..."}
+     {:es "hombre" :nl "man/mens"}
+     {:es "expliquen" :nl "leg uit"}
+     {:es "poner" :nl "ophangen"}
+     {:es "la pared" :nl "de wand"}
+     {:es "el helado" :nl "het ijs"}
+     {:es "servir para" :nl "dienen om"}
+     {:es "el nivel" :nl "het niveau"}
+     {:es "continuar" :nl "verdergaan"}
+    ]
+   201
+    [
+     {:es "estadounidense" :nl "Amerikaans, uit de Verenigde Staten"}
+     {:es "creer" :nl "geloven"}
+     {:es "sonar" :nl "klinken"}
+     {:es "el colegio" :nl "de (middelbare) school"}
+     {:es "tener la oportunidad" :nl "de gelegenheid hebben"}
+     {:es "la oportunidad" :nl "de gelegenheid"}
+     {:es "sensacional" :nl "fantastisch; geweldig"}
+     {:es "aquel/aqualla" :nl "die; dat"}
+     {:es "en general" :nl "in het algemeen"}
+     {:es "cariñoso/-a" :nl "liefdevol; hartelijk"}
+     {:es "más" :nl "meer"}
+     {:es "EE. UU. (Estados Unidos)" :nl "VS (Verenigde Staten)"}
+     {:es "Brasil" :nl "Brazilië"}
+     {:es "el valor" :nl "de waarde; de betekenis"}
+     {:es "ocupar" :nl "innemen"}
+     {:es "como" :nl "als"}
+     {:es "cuarto/-a" :nl "vierde"}
+     {:es "el chino" :nl "het Chinees"}
+     {:es "seguir" :nl "volgen"}
+     {:es "el alumno" :nl "de leerling"}
+     {:es "la alumna" :nl "de leerlinge"}
+     {:es "la lengua extranjera" :nl "de vreemde taal"}
+     {:es "comprensible" :nl "begrijpelijk"}
+     {:es "traer" :nl "meebrengen"}
+     {:es "practicar" :nl "in de praktijk brengen; oefenen"}
+     {:es "el movimiento" :nl "de beweging"}
+     {:es "la dificultad" :nl "de moeilijkheid"}
+     {:es "aburrir" :nl "vervelen"}
+     {:es "costar" :nl "moeite kosten"}
+     {:es "correspondiente" :nl "overeenkomstig"}
+     {:es "el bolígrafo" :nl "de balpen"}
+     {:es "el lápiz" :nl "het potlood"}
+     {:es "el clip" :nl "de paperclip"}
+     {:es "la hoja de papel" :nl "het vel papier"}
+     {:es "el plástico" :nl "het plastic"}
+     {:es "la madera" :nl "het hout"}
+     {:es "soportar" :nl "verdragen"}
+     {:es "el desorden" :nl "de wanorde; de chaos"}
+     {:es "caótico/-a" :nl "chaotisch"}
+     {:es "ordenado/-a" :nl "geordend; netjes"}
+     {:es "sistemático/-a" :nl "systematisch"}
+     {:es "trabajador/a" :nl "ijverig; hardwerkend"}
+     {:es "reservado/-a" :nl "terughoudend; gereserveerd"}
+     {:es "el tipo de estudiante" :nl "het leertype; het type student"}
+     {:es "el lugar de estudio" :nl "de studeerplek"}
+     {:es "el éxito" :nl "het succes"}
+     {:es "mágico/-a" :nl "magisch"}
+     {:es "sí" :nl "toch; wel"}
+     {:es "el ingrediente" :nl "het ingrediënt"}
+     {:es "el porcentaje" :nl "het percentage"}
+     {:es "hay que" :nl "het is nodig dat; je moet"}
+     {:es "la diversión" :nl "het plezier"}
+     {:es "la paciencia" :nl "het geduld"}
+     {:es "la motivación" :nl "de motivatie"}
+     {:es "¡Ya está!" :nl "Dat is alles!; Klaar!"}
+     {:es "desde el primer día" :nl "vanaf de allereerste dag"}
+     {:es "seguir" :nl "verdergaan; doorgaan"}
+     {:es "tener miedo (a)" :nl "bang zijn voor"}
+     {:es "el miedo" :nl "de angst"}
+     {:es "el pasado" :nl "het verleden"}
+     {:es "comprender" :nl "begrijpen"}
+     {:es "ya no" :nl "niet meer"}
+     {:es "conseguir" :nl "halen; bereiken"}
+     {:es "poner la mesa" :nl "de tafel dekken"}
+     {:es "hace poco tiempo" :nl "kortgeleden"}
+     {:es "curioso/-a" :nl "nieuwsgierig"}
+     {:es "desde hace" :nl "sinds (+ periode)"}
+     {:es "desde" :nl "vanaf (+ tijdstip)"}
+     {:es "el entrenador" :nl "de trainer"}
+     {:es "la entrenadora" :nl "de trainster"}
+     {:es "me gustaría" :nl "ik zou het leuk vinden; ik zou graag"}
+     {:es "ganar" :nl "winnen"}
+     {:es "un gran deportista" :nl "een geweldig sportman"}
+     {:es "el campeonato mundial" :nl "het wereldkampioenschap"}
+     {:es "el campeonato" :nl "het kampioenschap"}
+     {:es "los bomberos" :nl "de brandweer"}
+     {:es "la natación" :nl "het zwemmen"}
+     {:es "estar en forma" :nl "in vorm zijn"}
+     {:es "curiosamente" :nl "vreemd genoeg"}
+     {:es "cuando" :nl "toen"}
+     {:es "la vergüenza" :nl "de schaamte"}
+     {:es "sentirse" :nl "zich voelen"}
+     {:es "orgulloso/-a" :nl "trots"}
+     {:es "Australia" :nl "Australië"}
+     {:es "Canadá" :nl "Canada"}
+     {:es "como" :nl "aangezien; omdat"}
+     {:es "extraño/-a" :nl "vreemd"}
+     {:es "el diario" :nl "het dagblad"}
+     {:es "Inglaterra" :nl "Engeland"}
+     {:es "es decir" :nl "dat wil zeggen; namelijk"}
+     {:es "motivar" :nl "motiveren"}
+     {:es "el capítulo" :nl "het hoofdstuk"}
+     {:es "la agencia de detectives" :nl "het detectivebureau"}
+     {:es "la ciencia" :nl "de wetenschap"}
+     {:es "el robo" :nl "de roof; de diefstal"}
+     {:es "el detalle" :nl "het detail"}
+     {:es "terrible" :nl "verschrikkelijk; vreselijk"}
+     {:es "complicado/-a" :nl "ingewikkeld"}
+     {:es "la alegría" :nl "de vreugde; de blijdschap"}
+     {:es "en realidad" :nl "in feite, eigenlijk"}
+     {:es "la fecha" :nl "de datum"}
+     {:es "tradicionalmente" :nl "van oudsher; traditioneel"}
+     {:es "recibir" :nl "binnenhalen; ontvangen"}
+     {:es "entregar" :nl "geven aan; overhandigen"}
+     {:es "desear" :nl "wensen"}
+     {:es "bueno/-a" :nl "goed"}
+     {:es "la puerta" :nl "de deur"}
+     {:es "intentar" :nl "proberen te/om"}
+     {:es "la ilusión" :nl "de hoop; de droom"}
+     {:es "la Nochevieja" :nl "oudejaarsavond"}
+    ]
+   202
+    [
+     {:es "el descanso" :nl "de ontspanning; de rust"}
+     {:es "en buenas manos" :nl "in goede handen"}
+     {:es "la parte del cuerpo" :nl "het lichaamsdeel"}
+     {:es "la belleza" :nl "de schoonheid"}
+     {:es "la piedra" :nl "de steen"}
+     {:es "el masaje" :nl "de massage"}
+     {:es "la espalda" :nl "de rug"}
+     {:es "la oreja" :nl "het oor"}
+     {:es "suficiente" :nl "voldoende"}
+     {:es "la piel" :nl "de huid"}
+     {:es "la pierna" :nl "het been"}
+     {:es "profesional" :nl "professioneel, prof-"}
+     {:es "el/la aficionado/-a" :nl "de amateur"}
+     {:es "la cara" :nl "het gezicht"}
+     {:es "doler" :nl "pijn doen"}
+     {:es "el estrés" :nl "de stress"}
+     {:es "la cabeza" :nl "het hoofd"}
+     {:es "el diente" :nl "de tand"}
+     {:es "la nariz" :nl "de neus"}
+     {:es "la boca" :nl "de mond"}
+     {:es "el ojo" :nl "het oog"}
+     {:es "el brazo" :nl "de arm"}
+     {:es "el pecho" :nl "de borst"}
+     {:es "la barriga" :nl "de buik"}
+     {:es "la rodilla" :nl "de knie"}
+     {:es "la enfermedad" :nl "de ziekte"}
+     {:es "estar mal" :nl "zich slecht voelen; ziek zijn"}
+     {:es "la fiebre" :nl "de koorts"}
+     {:es "el resfriado" :nl "de verkoudheid"}
+     {:es "grave" :nl "erg; ernstig"}
+     {:es "la garganta" :nl "de keel"}
+     {:es "la tos" :nl "de hoest"}
+     {:es "el estómago" :nl "de maag"}
+     {:es "moverse (ue)" :nl "zich bewegen"}
+     {:es "estar fatal" :nl "zich heel slecht voelen"}
+     {:es "curarse" :nl "beter worden; genezen"}
+     {:es "preocupar" :nl "zorgen baren; verontrusten"}
+     {:es "la salud" :nl "de gezondheid"}
+     {:es "¿Qué te / le pasa?" :nl "Wat is er met je / u aan de hand?"}
+     {:es "Que te mejores / se mejore." :nl "Beterschap."}
+     {:es "la gripe" :nl "de griep"}
+     {:es "la diarrea" :nl "de diarree"}
+     {:es "enfermo/-a" :nl "ziek"}
+     {:es "resfriado/-a" :nl "verkouden"}
+     {:es "nervioso/-a" :nl "nerveus; zenuwachtig"}
+     {:es "estar bien" :nl "zich goed voelen"}
+     {:es "sano/-a" :nl "gezond"}
+     {:es "la farmacia" :nl "de apotheek"}
+     {:es "la crema" :nl "de zalf"}
+     {:es "la tirita" :nl "de pleister"}
+     {:es "a menudo" :nl "vaak"}
+     {:es "el dolor de cabeza" :nl "de hoofdpijn"}
+     {:es "la pastilla" :nl "de pastille, het tabletje"}
+     {:es "agradable" :nl "aangenaam; leuk"}
+     {:es "con prisa" :nl "gehaast"}
+     {:es "diariamente" :nl "dagelijks"}
+     {:es "la costumbre" :nl "de gewoonte"}
+     {:es "demostrar (ue)" :nl "aantonen"}
+     {:es "científico/-a" :nl "wetenschappelijk"}
+     {:es "mejorar" :nl "verbeteren"}
+     {:es "el sillón" :nl "de fauteuil"}
+     {:es "bastar" :nl "genoeg zijn"}
+     {:es "alguno/-a" :nl "enig, een"}
+     {:es "antes" :nl "vroeger"}
+     {:es "la fuente" :nl "de bron"}
+     {:es "la riqueza" :nl "de weelde; de rijkdom"}
+     {:es "la razón" :nl "de reden"}
+     {:es "el lujo" :nl "de luxe"}
+     {:es "la cura" :nl "de behandeling; de kuur"}
+     {:es "bañarse" :nl "baden"}
+     {:es "combinar" :nl "combineren"}
+     {:es "el siglo" :nl "de eeuw"}
+     {:es "la motocicleta" :nl "de scooter"}
+     {:es "de piel(es)" :nl "van huiden"}
+     {:es "la piel" :nl "de huid; het vel; het leer"}
+     {:es "anterior a" :nl "voorafgaand aan"}
+     {:es "la llegada" :nl "de aankomst"}
+     {:es "la planta" :nl "de plant"}
+     {:es "compensar" :nl "compenseren; aanvullen"}
+     {:es "el uso" :nl "het gebruik"}
+     {:es "tratar" :nl "behandelen"}
+     {:es "el remedio" :nl "het geneesmiddel; het medicijn"}
+     {:es "recoger información" :nl "informatie verzamelen"}
+     {:es "original" :nl "oorspronkelijk"}
+     {:es "robar" :nl "stelen; roven"}
+     {:es "descubrir" :nl "ontdekken"}
+     {:es "controlar" :nl "controleren"}
+     {:es "marcharse" :nl "weggaan"}
+     {:es "justo" :nl "precies; juist; net"}
+     {:es "cristiano/-a" :nl "christelijk"}
+     {:es "el peligro" :nl "het gevaar"}
+     {:es "la lucha" :nl "de strijd"}
+     {:es "el bien" :nl "het goede"}
+     {:es "el mal" :nl "het kwaad"}
+     {:es "vestido/-a de rojo" :nl "in het rood gekleed"}
+     {:es "la península" :nl "het schiereiland"}
+     {:es "anterior" :nl "vorig; voorgaand"}
+     {:es "serio/-a" :nl "serieus"}
+     {:es "crítico/-a" :nl "kritisch"}
+     {:es "el concurso" :nl "de wedstrijd"}
+     {:es "cualquier/a" :nl "elk; wat voor ... dan ook"}
+    ]
+   203
+    [
+     {:es "el programa de tele" :nl "het tv-programma"}
+     {:es "el caballo" :nl "het paard"}
+     {:es "llorar" :nl "huilen"}
+     {:es "¡Qué suerte!" :nl "Wat een geluk!"}
+     {:es "la suerte" :nl "het geluk"}
+     {:es "dormirse (ue)" :nl "in slaap vallen"}
+     {:es "menor" :nl "jongere; jongste"}
+     {:es "el patio" :nl "de patio; de binnenplaats"}
+     {:es "el acontecimiento" :nl "de gebeurtenis"}
+     {:es "el rey" :nl "de koning"}
+     {:es "la reina" :nl "de koningin"}
+     {:es "el pájaro" :nl "de vogel"}
+     {:es "el perro" :nl "de hond"}
+     {:es "la vaca" :nl "de koe"}
+     {:es "el toro" :nl "de stier"}
+     {:es "el ratón" :nl "de muis"}
+     {:es "triste" :nl "verdrietig"}
+     {:es "el fondo" :nl "de bodem"}
+     {:es "responder" :nl "antwoorden"}
+     {:es "duro/-a" :nl "hard"}
+     {:es "prometer" :nl "beloven"}
+     {:es "encontrarse (ue) con" :nl "tegenkomen"}
+     {:es "el botón" :nl "de knoop"}
+     {:es "la moneda" :nl "het muntstuk"}
+     {:es "la plata" :nl "het zilver"}
+     {:es "tocar" :nl "aanraken"}
+     {:es "cambiar (por)" :nl "ruilen, inwisselen (voor)"}
+     {:es "parecido/-a (a)" :nl "lijkend (op)"}
+     {:es "el sitio" :nl "de plek"}
+     {:es "notar" :nl "(op)merken"}
+     {:es "mientras" :nl "terwijl"}
+     {:es "el voluntario" :nl "de vrijwilliger"}
+     {:es "la voluntaria" :nl "de vrijwilligster"}
+     {:es "curioso/-a" :nl "nieuwsgierig"}
+     {:es "quedar" :nl "(over)blijven"}
+     {:es "listo/-a" :nl "slim"}
+     {:es "total que" :nl "kortom"}
+     {:es "la curiosidad" :nl "de nieuwsgierigheid"}
+     {:es "la circunstancia" :nl "de omstandigheid"}
+     {:es "el acontecimiento" :nl "de gebeurtenis"}
+     {:es "la manifestación" :nl "de demonstratie"}
+     {:es "enamorarse (de)" :nl "verliefd worden (op)"}
+     {:es "el conductor" :nl "de bestuurder"}
+     {:es "la conductora" :nl "de bestuurster"}
+     {:es "importar" :nl "ertoe doen"}
+     {:es "el bolsillo" :nl "de zak"}
+     {:es "colectivo/-a" :nl "gezamenlijk"}
+     {:es "convertirse (ie) en" :nl "veranderen (in); worden"}
+     {:es "el crimen" :nl "het misdrijf; de misdaad"}
+     {:es "el escenario del crimen" :nl "de plaats van het misdrijf"}
+     {:es "observar" :nl "observeren; bekijken"}
+     {:es "el fuego" :nl "het vuur"}
+     {:es "generalmente" :nl "over het algemeen"}
+     {:es "de actualidad" :nl "vandaag de dag; tegenwoordig"}
+     {:es "reunirse (ú)" :nl "bij elkaar komen"}
+     {:es "la esquina" :nl "de straathoek"}
+     {:es "quemar" :nl "(ver)branden"}
+     {:es "loco/-a" :nl "gek"}
+     {:es "numeroso/-a" :nl "veel, talrijk"}
+     {:es "el puesto" :nl "het kraampje"}
+     {:es "despertar (ie)" :nl "wakker maken"}
+    ]
+   204
+    [
+     {:es "la lengua oficial" :nl "de officiële taal"}
+     {:es "imaginarse" :nl "zich voorstellen; zich indenken"}
+     {:es "seguro/-a" :nl "zeker"}
+     {:es "divertido/-a" :nl "leuk; vermakelijk"}
+     {:es "la decisión" :nl "de beslissing"}
+     {:es "la pelota" :nl "de bal"}
+     {:es "alguien" :nl "iemand"}
+     {:es "el especialista" :nl "de specialist"}
+     {:es "la especialista" :nl "de specialiste"}
+     {:es "desarrollado/-a" :nl "ontwikkeld"}
+     {:es "la lógica" :nl "de logica"}
+     {:es "resolver" :nl "oplossen"}
+     {:es "la responsabilidad" :nl "de verantwoordelijkheid"}
+     {:es "coleccionar" :nl "verzamelen"}
+     {:es "la flor" :nl "de bloem"}
+     {:es "musical" :nl "muzikaal"}
+     {:es "inteligente" :nl "intelligent"}
+     {:es "No se preocupe." :nl "Maakt u zich geen zorgen."}
+     {:es "seguramente" :nl "vast en zeker"}
+    ]
+   205
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   206
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   207
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   208
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   209
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   210
+    [
+     {:es "informar(se)" :nl "(zich) informeren"}
+     {:es "las noticias" :nl "het nieuws"}
+     {:es "aprovechar" :nl "benutten"}
+     {:es "la conexión" :nl "de verbinding"}
+     {:es "la hora" :nl "het tijdstip; het moment; de afspraak"}
+     {:es "la peluquería" :nl "de kapsalon"}
+     {:es "contarse el pelo" :nl "zich laten knippen"}
+     {:es "las revistas del corazón" :nl "de roddelbladen"}
+     {:es "el corazón" :nl "het hart"}
+     {:es "la familia real" :nl "de koninklijke familie"}
+     {:es "subir" :nl "stijgen"}
+     {:es "el reportaje" :nl "de reportage; het verslag"}
+     {:es "lo mío" :nl "mijn ding"}
+     {:es "aquí mismo" :nl "precies hier"}
+     {:es "hoy mismo" :nl "vandaag nog"}
+     {:es "yo mismo/-a" :nl "ikzelf"}
+     {:es "la serie" :nl "de serie"}
+     {:es "el documental" :nl "de documentaire"}
+     {:es "la telenovela" :nl "de soap"}
+     {:es "la tertulia" :nl "de talkshow; het praatprogramma"}
+     {:es "la crónica" :nl "de rubriek; het programma"}
+     {:es "el espacio" :nl "de ruimte"}
+     {:es "el diario" :nl "het journaal"}
+     {:es "el/la muerto/-a" :nl "de dode"}
+     {:es "la redacción" :nl "de redactie"}
+     {:es "el planeta" :nl "de planeet"}
+     {:es "el candidato" :nl "de kandidaat"}
+     {:es "la candidata" :nl "de kandidate"}
+     {:es "la semifinal" :nl "de halve finale"}
+     {:es "deportivo/-a" :nl "sport-"}
+     {:es "la previsión meteorológica" :nl "de weersvoorspelling"}
+     {:es "el cáncer" :nl "de kanker"}
+     {:es "raramente" :nl "zelden; bijna nooit"}
+     {:es "el partido (de fútbol)" :nl "de (voetbal)wedstrijd"}
+     {:es "la televisión pública" :nl "de publieke omroep"}
+     {:es "el contenido" :nl "de inhoud"}
+     {:es "la violencia" :nl "het geweld"}
+     {:es "reducir" :nl "verminderen; terugbrengen"}
+     {:es "aburrido/-a" :nl "saai"}
+     {:es "la discusión" :nl "de discussie"}
+     {:es "distinto/-a" :nl "verschillend"}
+     {:es "el análisis" :nl "de analyse"}
+     {:es "a favor (de)" :nl "voor"}
+     {:es "en contra (de)" :nl "tegen"}
+     {:es "el acuerdo" :nl "de instemming; de overeenkomst"}
+     {:es "la duda" :nl "de twijfel"}
+     {:es "cierto" :nl "zeker; waar"}
+     {:es "tener razón" :nl "gelijk hebben"}
+     {:es "depende" :nl "het hangt ervan af"}
+     {:es "probable" :nl "waarschijnlijk"}
+     {:es "no, en absoluto" :nl "helemaal niet"}
+     {:es "apagar" :nl "uitzetten; uitschakelen"}
+     {:es "la pantalla" :nl "het (beeld)scherm"}
+     {:es "el ráton" :nl "de muis"}
+     {:es "hacer clic (en)" :nl "klikken (op)"}
+     {:es "el buscador" :nl "de zoekmachine"}
+     {:es "imprimir" :nl "afdrukken; printen"}
+     {:es "copiar" :nl "kopiëren"}
+     {:es "el documento" :nl "het document"}
+     {:es "derecho/-a" :nl "rechter-"}
+     {:es "izquierdo/-a" :nl "linker-"}
+     {:es "planchar" :nl "strijken"}
+     {:es "chatear" :nl "chatten"}
+     {:es "decidirse (por)" :nl "kiezen (voor)"}
+     {:es "bajar" :nl "downloaden"}
+     {:es "la rapidez" :nl "de snelheid"}
+     {:es "la comodidad" :nl "het gemak"}
+     {:es "la prensa" :nl "de pers"}
+     {:es "serio/-a" :nl "serieus"}
+     {:es "el traje" :nl "het pak"}
+     {:es "la corbata" :nl "de stropdas"}
+     {:es "es un lástima" :nl "het is zonde"}
+     {:es "la barba" :nl "de baard"}
+     {:es "el bigote" :nl "de snor"}
+     {:es "conocido/-a" :nl "bekend"}
+     {:es "el mundo entero" :nl "de hele wereld"}
+     {:es "magnífico/-a" :nl "voortreffelijk"}
+     {:es "la categoría" :nl "de categorie"}
+     {:es "definir" :nl "bepalen"}
+     {:es "fundamental" :nl "essentieel; basis-"}
+     {:es "marcar" :nl "kenteken; kenmerken"}
+     {:es "cambiar de color" :nl "van kleur veranderen"}
+     {:es "recoger" :nl "plukken; oogsten"}
+     {:es "la feria" :nl "het jaarfeest; de beurs"}
+     {:es "pisar" :nl "trappen op; vertrappen"}
+    ]
+   211
+    [
+     {:es "el sonido" :nl "het geluid"}
+     {:es "reparar" :nl "repareren; maken"}
+     {:es "transportar" :nl "vervoeren"}
+     {:es "¿A qué te dedicas?" :nl "Wat doe je voor werk?"}
+     {:es "el hospital" :nl "het ziekenhuis"}
+     {:es "simple" :nl "simpel; eenvoudig"}
+     {:es "el turno de noche" :nl "de nachtdienst"}
+     {:es "la sensación" :nl "het gevoel"}
+     {:es "la condición" :nl "de voorwaarde"}
+     {:es "trabajar a tiempo completo" :nl "fulltime werken"}
+     {:es "trabajar a tiempo parcial" :nl "(in) deeltijd werken"}
+     {:es "el horario fijo" :nl "de vaste werktijden"}
+     {:es "trabajar por turnos" :nl "in diensten werken"}
+     {:es "el trabajador" :nl "de werknemer"}
+     {:es "la trabajadora" :nl "de werkneemster"}
+     {:es "sorprendente" :nl "verrassend"}
+     {:es "la seguridad" :nl "de zekerheid"}
+     {:es "el desarrollo" :nl "de ontwikkeling"}
+     {:es "asistir (a)" :nl "deelnemen (aan)"}
+     {:es "la reunión" :nl "de vergadering; de bijeenkomst"}
+     {:es "el porcentaje" :nl "het percentage"}
+     {:es "encargarse de" :nl "zorg dragen voor; verantwoordelijk zijn voor"}
+     {:es "darse cuenta (de)" :nl "zich bewust zijn (van); opmerken"}
+     {:es "el abogado" :nl "de advocaat"}
+     {:es "la abogada" :nl "de advocate"}
+     {:es "el consulado" :nl "het consulaat"}
+     {:es "la imagen" :nl "het imago"}
+     {:es "la curiosidad" :nl "de bijzonderheid"}
+     {:es "los negocios" :nl "de zaken; het zakenleven"}
+     {:es "la entrevista de trabajo" :nl "het sollicitatiegesprek"}
+     {:es "el aumento de sueldo" :nl "de salarisverhoging"}
+     {:es "mínimo/-a" :nl "minimaal; minimum-"}
+     {:es "el paquete Office" :nl "het Officepakket"}
+     {:es "el contrato" :nl "het contract"}
+     {:es "Estimados señores" :nl "Geachte heer/mevrouw"}
+     {:es "publicar" :nl "publiceren"}
+     {:es "el intercambio" :nl "de uitwisseling"}
+     {:es "la experiencia laboral" :nl "de werkervaring"}
+     {:es "agradecer" :nl "bedanken (voor)"}
+     {:es "estar a su (entera) disposición" :nl "tot uw (volledige) beschikking staan"}
+     {:es "la disposición" :nl "de beschikking"}
+     {:es "favorable" :nl "gunstig; positief"}
+     {:es "el certificado" :nl "het certificaat; het getuigschrift"}
+     {:es "el/la jefe/-a de personal" :nl "het hoofd personeelszaken"}
+     {:es "romperse" :nl "kapot gaan"}
+     {:es "la (carta de) reclamación" :nl "de aanbeveling(-sbrief)"}
+     {:es "nombrar" :nl "noemen"}
+     {:es "conseguir" :nl "krijgen/bereiken"}
+     {:es "vivo/-a" :nl "levendig"}
+     {:es "esconder" :nl "verstoppen"}
+     {:es "radical" :nl "radicaal; drastisch"}
+     {:es "destruir" :nl "vernietigen"}
+     {:es "inmediatamente" :nl "onmiddellijk"}
+     {:es "enseñar" :nl "leren; onderwijzen"}
+     {:es "vivo/-a" :nl "levend"}
+     {:es "ante" :nl "voor"}
+     {:es "declarar" :nl "verklaren; uitroepen tot"}
+    ]
+   212
+    [
+     {:es "la vida privada" :nl "het privéleven"}
+     {:es "dar igual" :nl "niet uitmaken"}
+     {:es "emplear" :nl "besteden"}
+     {:es "dudar" :nl "twijfelen"}
+     {:es "totalmente" :nl "volledig; helemaal"}
+     {:es "la langua materna" :nl "de moedertaal"}
+     {:es "fijarse en" :nl "letten op"}
+     {:es "¿Qué cuentas?" :nl "Nog nieuws?"}
+     {:es "desde luego" :nl "uiteraard; natuurlijk"}
+    ]
+   301
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   302
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   303
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   304
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   305
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   306
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   307
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   308
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   309
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   310
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   311
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   312
+    [
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+     {:es "" :nl ""}
+    ]
+   1090
+    [
+     {:es "el techo" :nl "het plafond"}
+     {:es "el pared" :nl "de muur"}
+     {:es "la chimenea" :nl "de schoorsteen"}
+     {:es "el suelo" :nl "de grond"}
+     {:es "el tejado" :nl "het dak"}
+     {:es "la ventana" :nl "het raam"}
+     {:es "la puerta" :nl "de deur"}
+     {:es "la verja" :nl "het traliehek"}
+     {:es "el dormitorio" :nl "de slaapkamer"}
+     {:es "el comedor" :nl "de eetkamer"}
+     {:es "la cocina" :nl "de keuken"}
+     {:es "el cuarto de baño" :nl "de badkamer"}
+     {:es "la entrada" :nl "de entree"}
+     {:es "los escalones" :nl "de trap (buiten)"}
+     {:es "la escalera" :nl "de trap"}
+     {:es "el edificio" :nl "het gebouw"}
+     {:es "la casa" :nl "het huis"}
+     {:es "el apartamento" :nl "het appartement"}
+     {:es "el garaje" :nl "de garage"}
+     {:es "el jardín" :nl "de tuin"}
     ]
   }
 )
